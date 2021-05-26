@@ -1,0 +1,166 @@
+.animeList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+}
+.animeList,
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+}
+main {
+  background-color: #1B263B;
+  border: 1px black solid;
+}
+li,
+h2,
+span {
+  color: #E0E1DD;
+  background-color: #1B263B;
+}
+.animeTitle {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.articleHead {
+  background-color: #415A77;
+}
+.articleHead,
+.articleExcerpt {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.articleExcerpt {
+  font-family: "Permanent Marker";
+}
+
+.featuredPhoto {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: #778DA9;
+}
+
+h3 {
+  background-color: #415A77;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E0E1DD
+}
+
+#topTenList,
+#crunchyRoll {
+  display: flex;
+}
+
+#topTenList {
+  font-size: 100px;
+  color: #E0E1DD;
+  justify-content: left;
+}
+
+#crunchyRoll {
+  justify-content: right;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #778Da9;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #778Da9;
+}
+
+.inner_footer {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Permanent Marker';
+  font-size: 32px;
+  font-weight: 100;
+
+}
+
+.logo_container h1 span {
+  font-weight: 800;
+  color: #101010;
+  background-color: #778Da9;
+}
+
+.nav {
+  float: right;
+  height: 100%;
+}
+
+.nav a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0 20px;
+}
+
+.nav a li {
+  background-color: #778DA9;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: "Permanent Marker";
+  font-size: 16px;
+}
+
+.nav a:last-child {
+  padding-right: 0;
+}
+
+.header {
+  border: 1px black solid;
+}
